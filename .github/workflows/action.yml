@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: '24' # Recommended latest stable version
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install axios
+        run: npm install axios
       
       - name: Fetch JS Script 
         run: |
